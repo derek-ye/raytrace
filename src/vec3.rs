@@ -8,6 +8,12 @@ pub type Point = Vec3;
 pub type Color = Vec3;
 
 impl Vec3 {
+
+    // TODO: add
+    // TODO: subtract
+    // TODO: multiply
+    // TODO: divide
+
     pub fn length(&self) -> f32 {
         self.lenth_squared().sqrt()
     }
